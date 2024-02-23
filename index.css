@@ -1,1 +1,91 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-family: sans-serif;
+  position: fixed;
+  width: 100%;
+  background: white;
+}
+nav .logo-container {
+  margin-left: 40px;
+}
+nav ul {
+  margin-right: 40px;
+}
+nav ul li {
+  margin-left: 30px;
+  display: inline;
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(https://images.unsplash.com/photo-1598520106830-8c45c2035460?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+main h1 {
+  font-size: 3rem;
+  color: white;
+}
+main p {
+  max-width: 600px;
+  margin: 10px;
+}
+main button {
+  background: transparent;
+  border: none;
+  background: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.card {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .card-content {
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  margin: 0 6rem;
+  font-family: sans-serif;
+}
+.card .card-content h1 {
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+.card .card-content p {
+  margin: 20px 0;
+  margin-bottom: 40px;
+  line-height: 1.5rem;
+}
+.card .card-content a {
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 10px 20px;
+}
+.card .card-img {
+  width: 400px;
+}/*# sourceMappingURL=index.css.map */
